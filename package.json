@@ -1,0 +1,20 @@
+{
+  "name": "react-meteor-onsenui-mobile-app-example",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.55",
+    "meteor-node-stubs": "^0.4.1",
+    "onsenui": "^2.10.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-onsenui": "^1.11.1"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js"
+    }
+  }
+}
