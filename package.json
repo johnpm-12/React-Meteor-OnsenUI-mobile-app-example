@@ -2,14 +2,15 @@
   "name": "react-meteor-onsenui-mobile-app-example",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "buildapk": "meteor build .build --debug --server localhost:3000 && cp .build/android/project/build/outputs/apk/debug/android-debug.apk .mobilebuild/android-debug.apk"
   },
   "dependencies": {
-    "@babel/runtime": "7.0.0-beta.55",
+    "@babel/runtime": "^7.1.5",
     "meteor-node-stubs": "^0.4.1",
     "onsenui": "^2.10.6",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-onsenui": "^1.11.1"
   },
   "meteor": {
