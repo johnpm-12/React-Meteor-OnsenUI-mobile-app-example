@@ -14,3 +14,4 @@ webapp@1.7.1                  # Serves a Meteor app over HTTP
 minimongo@1.4.5
 react-meteor-data
 frozeman:persistent-minimongo2
+mobile-experience
